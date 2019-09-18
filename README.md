@@ -5,7 +5,7 @@ Endpoints:
 1. Register User
   - POST
   - Path: '/registerUser'
-  - Body Params
+  - Body Params:
     - firstName
     - lastName
     - email: req.body.email,
