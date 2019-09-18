@@ -8,9 +8,9 @@ Endpoints:
   - Body Params:
     - firstName
     - lastName
-    - email: req.body.email,
-    - username: req.body.username,
-    - password: req.body.password,
+    - email
+    - username
+    - password
         
 2. Login
   - GET
