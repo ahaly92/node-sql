@@ -1,4 +1,4 @@
-import EmployeeModel from './models/employee'
+import UserModel from './models/user'
 import Sequelize from 'sequelize'
 
 const sequelize = new Sequelize('company', 'root', 'password', {
@@ -9,11 +9,11 @@ const sequelize = new Sequelize('company', 'root', 'password', {
     }
 });
 
-const Employee = EmployeeModel(sequelize, Sequelize);
+const User = UserModel(sequelize, Sequelize);
 
 sequelize.sync()
     .then(() => {
-        console.log('Company db and employee table have been created')
+        console.log('db has been created')
     });
 
-module.exports = Employee;
+module.exports = User;

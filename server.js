@@ -11,7 +11,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
-require('./routes/addEmployee')(app);
+require('./routes/registerUser')(app);
+require('./routes/loginUser')(app);
 
 app.listen(API_PORT, () => console.log(`listening on port ${API_PORT}`));
 
