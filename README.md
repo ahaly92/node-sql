@@ -5,14 +5,13 @@ Endpoints:
 1. Register User
   - POST
   - Path: '/registerUser'
-  - Body
-        {
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            email: req.body.email,
-            username: req.body.username,
-            password: req.body.password,
-        }
+  - Body Params
+    - firstName
+    - lastName
+    - email: req.body.email,
+    - username: req.body.username,
+    - password: req.body.password,
+        
 2. Login
   - GET
   - Path: '/loginUser'
