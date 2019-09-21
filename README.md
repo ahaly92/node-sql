@@ -1,4 +1,4 @@
-# basic node + sql setup
+# Basic Node + SQL setup
 
 ## This Repository's Endpoints
 
