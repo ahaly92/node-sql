@@ -18,7 +18,23 @@
     - Query Parms: 
         - username
         - password
+## Installing NodeJS
 
+We will be using NVM to manage node so that we can easily install and switch between different versions.
+1. Before installing NVM make sure you have a .bashrc file in your home directory (even if the file is empty).
+    - `touch ~/.bashrc`
+
+2. To install NVM just run
+    - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash`
+
+3. Rerun .bashrc or log out then in 
+    - `source ~/.bashrc`
+
+4. To install the latest version of node run
+    - `nvm install node`
+
+5. To check the version of node installed run
+    - `node --version`
 
 ## Installing MySQL
 
